@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\calculetor.jpg" />
+    <None Remove="Images\CarGame.jpg" />
+    <None Remove="Images\CurrencyConventor.jpeg" />
+    <None Remove="Images\Simon.jpeg" />
+    <None Remove="Images\square1.jpeg" />
+    <None Remove="Images\square2.png" />
+    <None Remove="Images\TicTacTow.jpg" />
+    <None Remove="Images\TodoList.jpeg" />
+    <None Remove="Images\TodoList.jpg" />
+    <None Remove="Projects\CarGame\Images\Bomb.png" />
+    <None Remove="Projects\CarGame\Images\car.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\calculetor.jpg" />
+    <Resource Include="Images\CarGame.jpg" />
+    <Resource Include="Images\CurrencyConventor.jpeg" />
+    <Resource Include="Images\Simon.jpeg" />
+    <Resource Include="Images\TicTacTow.jpg" />
+    <Resource Include="Images\TodoList.jpg" />
+    <Resource Include="Projects\CarGame\Images\Bomb.png" />
+    <Resource Include="Projects\CarGame\Images\car.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\square1.jpeg" />
+    <Resource Include="Images\square2.png" />
+  </ItemGroup>
+
+</Project>
